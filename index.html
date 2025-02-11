@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AARYAN PERSONAL PORTFOLIO</title>
+    <link rel="stylesheet" href="styleport.css">
+    <script src="https://kit.fontawesome.com/be917ffbe6.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="images/logo2.jpg" alt="logo" class="logo">
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fas fa-times" onclick="closemenu()"></i>
+                </ul>
+                <i class="fas fa-bars" onclick="openmenu()"></i>
+            </nav>
+        <div class="header-text">
+            <p>Front End Developer</p>
+            <h1>Hi, I'm <span>Aaryan Sharma</span> <br>From India</h1>
+        </div>
+        </div>
+    </div>
+    <!-----------------------------About--------------------------------->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col1">
+                    <img src="images/user2.jpg" alt="user">
+                </div>
+                <div class="about-col2">
+                    <h1 class="subtitle">About Me</h1>
+                    <p>Hii!! My name is Aaryan Sharma. I am a btech 3rd year student with intrest in building websites and contributing my skills in varios projects which olso increase my knowlwdge and skills. i have learn HTML, CSS , JavaScript, Java and have made some projects based on these languages. Moreover i have earned varios certificates in specific languages like HTML, CSS and Js which demonstrate my intrest in learning new technologies.</p>
+                    <div class="tab-title">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('projects')">Projects</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>Programming Languages</span><br>C, HTML, CSS, JavaScript, Java,</li>
+                            <li><span>Database</span><br>My SQL, MongoDB</li>
+                            <li><span>Other Skills</span><br>Leadership, Time Management, Problem-Solving, Communicatio, Critical Thinking.</li>
+                            <li><span>Cocepts</span><br>Data Structure and Algorithms(DSA), OOPS</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="projects">
+                        <ul>
+                            <li><span>Personal Portfolio</span><br>Developed the personal portfolio using HTML, CSS and JavaScript.</li>
+                            <li><span>Hotel Management System(Working)</span><br>Developing the management system which can manage the hotel management.</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>HSC(12th)</span><br>St mary's School, Saharanpur <br>Percentage=76%</li>
+                            <li><span>SSC(10th)</span><br>St Mary's School, Saharanpur <br>Percentage=89%</li>
+                            <li><span>B Tech(CSE)</span><br>Dev bhoomi institution of Technology, Saharanpur <br>CGPA=8.3</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+<!---------------------------------------services------------------------------>
+<div id="services">
+    <div class="container">
+        <h1 class="subtitle">My Services</h1>
+        <div class="services-list">
+            <div>
+                <i class="fa-solid fa-code"></i>
+                <h2>Web Development</h2>
+                <p>I can make varios website using my Skills that are user interactive in nature. <br> I can make all types of websites..</p>
+                <a href="#">Learn More</a>
+            </div>
+            <div>
+                <i class="fa-solid fa-crop"></i>
+                <h2>FrontEnd Development</h2>
+                <p>I have learn varios Frontend languages like HTML, CSS and JavaScript from which we can make any website front part.</p>
+                <a href="#">Learn More</a>
+            </div>
+            <div>
+                <i class="fa-brands fa-app-store-ios"></i>
+                <h2>Backend Development</h2>
+                <p>Learn varios Skills like Java and other languages from which we can make the backend part of the website.</p>
+                <a href="#">Learn More</a>
+            </div>
+        </div>
+    </div>
+</div>
+<!----------------------------------------------------portfolio--------------------->
+<div id="portfolio">
+    <div class="container">
+        <h1 class="subtitle">My Work</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="images/work-1.png" alt="work">
+                <div class="layer">
+                    <h3>Social Media App</h3>
+                    <p>The App connects the world to the talented people across the world .Download it for free from our website....</p>
+                    <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/work-2.png" alt="work">
+                <div class="layer">
+                    <h3>Social Media App</h3>
+                    <p>The App connects the world to the talented people across the world .Download it for free from our website....</p>
+                    <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/work-3.png" alt="work">
+                <div class="layer">
+                    <h3>Social Media App</h3>
+                    <p>The App connects the world to the talented people across the world .Download it for free from our website....</p>
+                    <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+        </div>
+        <a href="#" class="btn">See More</a>
+    </div>
+</div>
+<!---------------------------------------contact-------------->
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="subtitle">Contact Me</h1>
+                <p><i class="fa-solid fa-paper-plane"></i>aaryansharmaaa123@gmail.com</p>
+                <p><i class="fa-solid fa-phone"></i>8923442359</p>
+                <div class="social-icons">
+                    <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                    <a href="#"><i class="fa-brands fa-twitter-square"></i></a>
+                    <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+                </div>
+                <a href="#" download class="btn btn2">Download CV</a>
+            </div>
+            <div class="contact-right">
+                <form name="submit-to-google-sheet">
+                    <input type="text" name="Name" placeholder="Your name" required>
+                    <input type="Email" name="Email" placeholder="Your Email" required>
+                    <textarea name="Message" rows="6" placeholder="Your message"></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                </form> 
+                <span id="msg"></span>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>Copyright @Aaryan. Made with the help of Html,Css and Js.</p>
+    </div>
+</div>
+
+ <script>
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-contents");
+
+    function opentab(tabname){
+        for(tablink of tablinks){
+            tablink.classList.remove("active-link");
+        }
+        for(tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+    }
+
+ </script> 
+ 
+ <script>
+
+    var sidemenu = document.getElementById("sidemenu");
+    function openmenu(){
+        sidemenu.style.right ="0";
+    }
+    function closemenu(){
+        sidemenu.style.right ="-200px";
+    }
+    
+ </script>
+
+<script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbxCYSoSPUJ9z1of-XwBjXqQOnQ04oZsMPW7uDDcANE5wVwx9HVxpiIw8Rpy4bqzo2cH/exec'
+    const form = document.forms['submit-to-google-sheet']
+    const msg =document.getElementById("msg")
+  
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {
+            msg.innerHTML = "Message sent successfully"
+            setTimeout(function(){
+                msg.innerHTML = ""
+            },5000)
+            form.reset()
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+
+</body>
+</html>
